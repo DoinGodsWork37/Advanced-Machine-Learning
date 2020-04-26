@@ -1,50 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="359ab55c-6470-4946-ae2f-ee559f36a9c1" name="Default Changelist" comment="" />
+    <list default="true" id="359ab55c-6470-4946-ae2f-ee559f36a9c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Machine-Learning.Rproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/.ipynb_checkpoints/iLykei_AMLAI_SRL4_MiniPacman-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/.ipynb_checkpoints/iLykei_AML_SRL0_MDP-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/RevenueManagementClasses/remote_revenue_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/RevenueManagementClasses/revenue.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/RevenueManagementClasses/revenue_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/competition/mspacman_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/competition/train_round2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/documents-Advanced Machine Learning-Reinforced Learning-iLykei_ReinforcedLearningMaterials/mini_pacman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/documents-Advanced Machine Learning-Reinforced Learning-iLykei_ReinforcedLearningMaterials/test_params.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/iLykei_AMLAI_SRL1_Grid.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/iLykei_AMLAI_SRL2_RevenueManagement.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/iLykei_AMLAI_SRL3_DQNCartpole.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/iLykei_AMLAI_SRL4_MiniPacman.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/iLykei_AML_SRL0_MDP.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/mini_pacman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/sprites/diamond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/sprites/monster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/sprites/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/sprites/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reinforced-Learning/test_params.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/.ipynb_checkpoints/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation4_ProjectInstructions-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/.ipynb_checkpoints/documents-Advanced Machine Learning-Satellite Image Segmentation-iLykei_AMLAI_SatelliteSegmentation_recommendations-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/.ipynb_checkpoints/project-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/01.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/03.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/04.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/05.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/06.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/07.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/08.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/09.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/12.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/13.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/14.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/15.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/16.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/17.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/18.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/19.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/20.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/21.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/22.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/23.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/gt_mband/24.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/01.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/03.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/04.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/05.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/06.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/07.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/08.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/09.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/12.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/13.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/14.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/15.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/16.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/17.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/18.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/19.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/20.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/21.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/22.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/23.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/24.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/data/mband/test.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/docs/A guide to convolution arithmetic for deep learning.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-iLykei_AMLAI_SatelliteSegmentation_recommendations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/img/cat2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/img/cat3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/log.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/01.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/03.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/04.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/05.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/06.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/07.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/08.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/09.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/12.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/13.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/14.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/15.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/16.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/17.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/18.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/19.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/20.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/21.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/22.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/23.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/gt_mband/24.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/01.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/03.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/04.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/05.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/06.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/07.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/08.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/09.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/12.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/13.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/14.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/15.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/16.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/17.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/18.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/19.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/20.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/21.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/22.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/23.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/24.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/data/mband/test.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/gen_patches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/log_unet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/map.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/project.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/result.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/run.sbatch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/tensorboard_unet/events.out.tfevents.1549262004.Joshuas-MBP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/tensorboard_unet/events.out.tfevents.1549262205.Joshuas-MBP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/tensorboard_unet/events.out.tfevents.1549262356.Joshuas-MBP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/train_unet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/unet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/project/weights/unet_weights.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/.ipynb_checkpoints/rcc_result-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/56985220_err.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/56985220_out.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/01.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/03.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/04.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/05.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/06.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/07.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/08.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/09.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/12.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/13.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/14.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/15.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/16.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/17.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/18.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/19.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/20.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/21.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/22.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/23.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/gt_mband/24.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/01.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/03.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/04.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/05.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/06.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/07.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/08.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/09.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/12.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/13.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/14.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/15.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/16.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/17.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/18.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/19.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/20.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/21.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/22.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/23.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/24.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/data/mband/test.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/gen_patches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/log_unet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/map.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/rcc_result.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/result.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/run.sbatch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/tensorboard_unet/events.out.tfevents.1549264239.midway2-0605.rcc.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/train_unet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/unet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/weights/unet_weights.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/simple_unet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/tensorboard_simple_unet/events.out.tfevents.1549233004.Joshuas-MBP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/weights_simple_unet.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Speech-Recognition/project/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Speech-Recognition/project/model_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Speech-Recognition/project/prep_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Speech-Recognition/project/project_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Speech-Recognition/project/rcc/run.sbatch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Speech-Recognition/project/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Advanced-Machine-Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Advanced-Machine-Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation1_Basics-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation4_ProjectInstructions-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Satellite-Image-Segmentation/.ipynb_checkpoints/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation3_UNetSimple-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/.ipynb_checkpoints/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation3_UNetSimple-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation3_UNetSimple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation3_UNetSimple.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation4_ProjectInstructions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation4_ProjectInstructions.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-cat.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/img/cat.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-iLykei_AMLAI_ImageSegmentation2_DataExploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-iLykei_AMLAI_ImageSegmentation2_DataExploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents-Advanced Machine Learning-General-RCC_Example.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation1_Basics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Satellite-Image-Segmentation/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation1_Basics.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents-Advanced Machine Learning-Satellite Image Segmentation-MScA_AMLAI32017_ImageSegmentation4_ProjectInstructions.ipynb" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1941729506">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reinforced-Learning/project/mini_pacman.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reinforced-Learning/competition/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+              <folding>
+                <element signature="e#50#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>build_one_model</find>
+      <find>audio_names</find>
+      <find>trained_model</find>
+      <find>trained</find>
+      <find>score_one_word</find>
+      <find>random.</find>
+      <find>number_zero_1.wa</find>
+      <find>librosa</find>
+      <find>ipd</find>
+      <find>random</find>
+      <find>new_data</find>
+      <find>.png</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Satellite-Image-Segmentation/project/train_unet.py" />
+        <option value="$PROJECT_DIR$/Satellite-Image-Segmentation/project/predict.py" />
+        <option value="$PROJECT_DIR$/Satellite-Image-Segmentation/project/unet_model.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/MScA32017_AMLAI_SpeechRecognition_1.ipynb" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/main.py" />
+        <option value="$PROJECT_DIR$/Reinforced-Learning/competition/mspacman_env.py" />
+        <option value="$PROJECT_DIR$/Reinforced-Learning/competition/train.py" />
+        <option value="$PROJECT_DIR$/Reinforced-Learning/competition/train_round2.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/Audio_model-KS.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/data-engineering.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/model.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/speech-rcc/run.sbatch" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/speech-rcc/project_run.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/speech-rcc/test.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/speech-rcc/model_rcc.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/model_run.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/prep_data.py" />
+        <option value="$PROJECT_DIR$/model_run.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/test.py" />
+        <option value="$PROJECT_DIR$/export-speech/test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/export-speech/project_run.py" />
+        <option value="$PROJECT_DIR$/model_test.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/export-speech/model.py" />
+        <option value="$PROJECT_DIR$/export-speech/model_test.py" />
+        <option value="$PROJECT_DIR$/Speech-Recognition/project/project_run.py" />
+        <option value="$PROJECT_DIR$/prep_data.py" />
+        <option value="$PROJECT_DIR$/export-speech/prep_data.py" />
+        <option value="$PROJECT_DIR$/export-speech/main.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1540" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -52,7 +342,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,25 +349,51 @@
               <item name="Advanced-Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced-Machine-Learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Advanced-Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced-Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Speech-Recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings sdk-home="/Applications/anaconda3/envs/untitled/bin/python">
+      <console-settings module-name="Advanced-Machine-Learning" sdk-home="/Applications/anaconda3/envs/untitled/bin/python" is-module-sdk="true">
         <option name="mySdkHome" value="/Applications/anaconda3/envs/untitled/bin/python" />
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Advanced-Machine-Learning" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/export-speech" />
+      <recent name="$PROJECT_DIR$/Speech-Recognition/export-speech" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/Speech-Recognition/project/test_data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/export-speech" />
+      <recent name="$PROJECT_DIR$/Speech-Recognition/project/other-samples" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/Speech-Recognition/project/original-sample" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,6 +407,30 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Advanced-Machine-Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -102,50 +441,409 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546905825262</updated>
+      <workItem from="1551770240949" duration="7298000" />
+      <workItem from="1552090772142" duration="23000" />
+      <workItem from="1552840858397" duration="3605000" />
+      <workItem from="1552858093148" duration="16000" />
+      <workItem from="1552858810916" duration="2064000" />
+      <workItem from="1552887889751" duration="693000" />
+      <workItem from="1552949316264" duration="251000" />
+      <workItem from="1553127079810" duration="64367000" />
+      <workItem from="1553522622156" duration="15977000" />
+      <workItem from="1553655604824" duration="9284000" />
+      <workItem from="1553703513815" duration="7428000" />
+      <workItem from="1553924534493" duration="39000" />
+      <workItem from="1560374496589" duration="202000" />
+      <workItem from="1560374721127" duration="60000" />
+      <workItem from="1569350492867" duration="327000" />
+      <workItem from="1580941231682" duration="487000" />
+      <workItem from="1582655787577" duration="1577000" />
+      <workItem from="1587939525191" duration="534000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="114232000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26862028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32834226" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501221" side_tool="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.30481285" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.498779" weight="0.1764706" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49758455" weight="0.2991453" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="5" sideWeight="0.5024155" side_tool="true" visible="true" weight="0.01831502" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16117217" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501221" side_tool="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" weight="0.24171123" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.498779" visible="true" weight="0.4642857" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49758455" weight="0.2991453" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="5" sideWeight="0.5024155" side_tool="true" weight="0.2991453" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lecture-1.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="20" selection-start-column="20" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/MScA32017_AMLAI_SpeechRecognition_1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Reinforced-Learning/competition/iLykei_AMLAI_RL_mspacman_ram_test.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/main.py" />
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/merge.py" />
+    <entry file="file://$PROJECT_DIR$/Reinforced-Learning/competition/mspacman_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reinforced-Learning/competition/iLykei_AMLAI_RL_mspacman_ram_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/rcc/run.sbatch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reinforced-Learning/competition/train_round2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/Audio_model-KS.py" />
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/__init__.py" />
+    <entry file="file:///anaconda3/envs/Advanced-Machine-Learning/lib/python3.7/site-packages/scipy/io/wavfile.py" />
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/speech-rcc/saved_num_models.pkl" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission6.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission7.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission8.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Satellite-Image-Segmentation/project/unet_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="83" selection-start-line="83" selection-end-line="83" selection-end-column="65" />
+          <folding>
+            <element signature="e#96#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Satellite-Image-Segmentation/project/train_unet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.Rmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/model_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="91" lean-forward="true" selection-end-line="107" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Satellite-Image-Segmentation/rcc/code/unet_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission-karthik.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission-karthik-2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-24084">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission-karthik-3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/prep_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission-karthik-4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-4785">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission11.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="2159">
+          <caret line="384" column="14" lean-forward="true" selection-start-line="384" selection-start-column="14" selection-end-line="384" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission9-ant.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1745" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission9.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-2463" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission9-ami.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission10.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission12.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-3546">
+          <caret line="804" column="18" selection-start-line="804" selection-start-column="8" selection-end-line="804" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_run.py" />
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_submission13.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-20946" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech-Recognition/project/project_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/export-speech/prep_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="87" column="14" selection-end-line="182" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1678" selection-start-line="1" selection-start-column="1665" selection-end-line="1" selection-end-column="1678" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/export-speech/model_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/export-speech/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1367">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/export-speech/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reinforced-Learning/project/mini_pacman.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reinforced-Learning/competition/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="e#50#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>

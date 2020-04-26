@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Speech-Recognition/data
+*.wav
+**/.idea/
+*.csv
+*.zip
+*.ipynb_checkpoints

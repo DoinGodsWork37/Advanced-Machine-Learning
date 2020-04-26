@@ -1,0 +1,75 @@
+---
+title: "Notes"
+author: "Joshua Goldberg"
+date: "`r format(Sys.time(), '%B, %d %Y')`"
+always_allow_html: yes
+output:
+  github_document: 
+  pdf_document: default
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r Global-options, include=FALSE}
+knitr::opts_chunk$set(fig.width=6, fig.asp=0.618, fig.path='Figs/',
+                      warning=FALSE, message=FALSE, cache=TRUE)
+```
+
+```{r Preamble, echo=FALSE}
+# Enter package in p_load()
+# If package is not installed, p_load() will install and load the package
+if(!"pacman" %in% rownames(installed.packages())) {
+  install.packages("pacman")
+  }
+pacman::p_load(tidyverse, ggthemes, here)
+
+# Set default ggplot theme to tufte
+theme_set(ggthemes::theme_tufte())
+```
+
+```{r Copy-files, echo=FALSE, eval=FALSE}
+# Enter files to load to project directory in from = "~/Downloads/your_file_name_here"
+file.copy(from = "~/Downloads/", to = here::here(), 
+          overwrite = TRUE, recursive = FALSE, 
+          copy.mode = TRUE)
+```
+
+# Reinforcement learning
+
+Batch gradients are smoother and the calculations use tensor so they're more efficient
+
+# Speech recognition: lecture 1
+
+Molecules do not travel. They oscillate the molecules and move the neighbors until it reaches you.
+
+We can hear what we say. Is it the fact that computer speech right now is not recursive is the reason for lack of intelligence?
+
+Speech is made up of phonems; it is the smallest part.
+
+# Speech recognition: lecture 2
+
+Viterbi is a general algorithm for detecting the highest likely state given a hidden markov model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
